@@ -1,0 +1,80 @@
+*{
+  border-radius: 7.5px;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 1em;
+}
+
+
+/**********************
+CALCULATOR LAYOUT
+**********************/
+.container {
+  margin: 0 auto;
+  width: 370px;
+  height: 370px;
+  background-color: skyblue;
+  padding: 15px;
+  box-shadow: 0 0 10px grey;
+}
+
+/**********************
+BUTTON ROW STYLES
+**********************/
+.top-row,
+.first-row,
+.second-row,
+.third-row,
+.bottom-row {
+  width: 100%;
+  height: 50px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+button {
+  width: 60px;
+  height: 50px;
+  margin: 0 10px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 2px 5px #598596;
+  font-size: 1.15em;
+  color: gray;
+}
+
+#clear {
+  background-color: coral;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 0 0 0 25px;
+  font-size: 1.5em;
+  color: white;
+}
+
+#text-box {
+  width: 195px;
+  height: 36px;
+  margin: 0 0 0 -10px;
+  font-size: 1em;
+  padding: 5px 20px;
+  border: none;
+  box-shadow: 0 2px 5px gray;
+  color: coral;
+  text-align: right;
+  font-size: 1.5em;
+  background-color: #347690;
+}
+
+.operators{
+  background-color: lightcoral;
+  color: white;
+}
+
+.total{
+  background-color: lightgreen;
+  color: white;
+}
